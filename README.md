@@ -10,6 +10,12 @@ Introduction
 NoteApp is designed using MVVM clean architecture using Jetpack Compose in a single module. <br>
 Room DB is used for storing notes locally. <br>
 
+Special feature: <br>
+a) Clean MVVM architecture <br>
+b) Room DB for storing notes locally <br>
+c) Dagger Hilt for dependency injection <br>
+d) Design using compose <br>
+
 This app contains three layers:<br>
 a) <b>Data Layer:</b> This layer contains all the data related logic (databases, api calls and 
   implementations, etc).<br>

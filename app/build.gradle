@@ -36,6 +36,10 @@ android {
         // Enables Jetpack Compose for this module
         compose true
     }
+    composeOptions {
+        kotlinCompilerExtensionVersion compose_version
+        kotlinCompilerVersion '1.5.21'
+    }
 }
 
 dependencies {
