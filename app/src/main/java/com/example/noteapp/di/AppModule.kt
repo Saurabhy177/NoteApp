@@ -2,7 +2,7 @@ package com.example.noteapp.di
 
 import android.app.Application
 import androidx.room.Room
-import com.example.noteapp.feature_note.data.data_source.NoteDatabase
+import com.example.noteapp.feature_note.data.local.NoteDatabase
 import com.example.noteapp.feature_note.data.repository.NoteRepoImpl
 import com.example.noteapp.feature_note.domain.repository.NoteRepo
 import com.example.noteapp.feature_note.domain.usecases.*
