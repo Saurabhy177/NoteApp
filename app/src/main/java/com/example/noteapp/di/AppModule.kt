@@ -12,10 +12,18 @@ import dagger.hilt.InstallIn
 import dagger.hilt.components.SingletonComponent
 import javax.inject.Singleton
 
+/**
+ * The "InstallIn" annotation specifies for how long the injected dependencies will live.
+ * Here, "SingletonComponent" class means all the dependencies live as long as our application.
+ * */
 @Module
 @InstallIn(SingletonComponent::class)
 object AppModule {
 
+    /**
+     * The "Singleton" annotation ensures there is only single instance throughout the whole
+     * lifetime of our app.
+     * */
     @Provides
     @Singleton
     fun providesNoteDatabase(app: Application): NoteDatabase {
